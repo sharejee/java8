@@ -12,10 +12,10 @@ public class MyClass implements Interface1,Interface2 {
 
     @Override
     public void log(String str) {
-       /* System.out.println("MyClass logging::"+str);
-        Interface1.print("abc");*/
+        /*System.out.println("MyClass logging::"+str);*/
+       /* Interface1.print("abc");
        Interface1.super.log("Hello World!");
-       Interface1.print("Hello World!");
+       Interface1.print("Hello World!");*/
     }
 
     @Override
@@ -30,6 +30,6 @@ public class MyClass implements Interface1,Interface2 {
 
         myClass.method2();
 
-        myClass.log("Hello world!");
+        myClass.log("<<myClass>>");
     }
 }
